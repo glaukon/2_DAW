@@ -1,0 +1,63 @@
+body {
+    width: 1220px;
+    background-color: #c8ab37ff;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.row {
+    clear: both;
+}
+
+#container {
+    background-color: white;
+    width: 1220px;
+    height: 940px;
+    margin: 0 auto;
+}
+
+li {
+    display: inline;
+    float: initial;
+    padding: 24px;
+    background-color: #999999ff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    color: white;
+    height: 25px;
+    background-color: #999999ff;
+}
+
+.articulo {
+    display: row;
+    text-align: justify;
+    padding: 16px;
+}
+
+.formulario {
+    max-width: 60%;
+    margin: 50px;
+    background-color: #c8ab37ff;
+}
+
+input {
+    margin-bottom: 18px;
+}
+
+.historia {
+    padding: 40px;
+    display: block;
+    text-align: justify;
+}

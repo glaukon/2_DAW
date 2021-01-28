@@ -1,0 +1,116 @@
+                    * {
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        background-color: #f4e285ff;
+                        width: 1265px;
+                        margin: 0 auto;
+                        padding-right: 20px;
+                    }
+                    
+                    header {
+                        display: flex;
+                        row-gap: inherit;
+                        background-color: #f4e285ff;
+                        color: white;
+                        width: 800px;
+                        height: 256px;
+                        margin: 0 auto;
+                        padding-right: 20px;
+                    }
+                    
+                    section {
+                        background-color: white;
+                        width: 1268px;
+                        height: 800px;
+                        margin-top: 12px;
+                        margin-right: 0 auto;
+                    }
+                    
+                    nav {
+                        background-color: #351e29ff;
+                        color: white;
+                        width: 1265px;
+                        height: 50px;
+                        margin: 0 auto;
+                        padding-right: 20px;
+                    }
+                    
+                    ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        overflow: hidden;
+                        /*background-color: #333;*/
+                    }
+                    
+                    li {
+                        float: left;
+                    }
+                    
+                    li a,
+                    .dropbtn {
+                        display: inline-block;
+                        color: white;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                    }
+                    
+                    li a:hover,
+                    .dropdown:hover .dropbtn {
+                        background-color: #351e29ff;
+                    }
+                    
+                    li.dropdown {
+                        display: inline-block;
+                    }
+                    
+                    .dropdown-content {
+                        display: none;
+                        position: absolute;
+                        background-color: #351e29ff;
+                        min-width: 160px;
+                        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                        z-index: 1;
+                    }
+                    
+                    .dropdown-content a {
+                        /*color: black;*/
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                        text-align: left;
+                    }
+                    
+                    .dropdown-content a:hover {
+                        background-color: #999999ff;
+                    }
+                    
+                    .dropdown:hover .dropdown-content {
+                        display: block;
+                    }
+                    
+                    article {
+                        display: flex;
+                        direction: inherit;
+                        width: 460px;
+                        margin: 0 auto;
+                        padding-right: 20px;
+                    }
+                    
+                    aside {
+                        width: 140px;
+                        display: flex;
+                    }
+                    
+                    footer {
+                        text-align: center;
+                        width: 1265px;
+                        height: 155px;
+                        margin-top: 12px;
+                        margin-bottom: 12px;
+                        background-color: #999999ff;
+                        color: white;
+                    }
